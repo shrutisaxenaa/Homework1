@@ -1,0 +1,432 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2048374400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.methodName()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should be able to land on dashboard Page",
+        "description": "",
+        "id": "creating-new-account-functionality-validation;user-should-be-able-to-land-on-dashboard-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 752096900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1234729400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the TechFios login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_the_TechFios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3096046300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3075948300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User  enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9885719500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Submit button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_the_Submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191470600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefination.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@NewACcountFeature"
+          },
+          {
+            "line": 4,
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1327467100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.methodName()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "User should be able to create new account",
+        "description": "",
+        "id": "creating-new-account-functionality-validation;user-should-be-able-to-create-new-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 763984600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1385684800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the TechFios login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_the_TechFios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3092691900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3073067400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User  enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              14
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6785315900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on the Submit button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_the_Submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144422800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefination.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3058524600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on Bank and Cash Button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_Bank_and_Cash_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3770990300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Clicks on New Account Button",
+            "match": {
+              "location": "LoginStepDefination.user_Clicks_on_New_Account_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37350800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Should Land on Accounts Page",
+            "match": {
+              "location": "LoginStepDefination.user_should_land_on_accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3097590900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters AccountTitle as \"savings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "savings",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_accountTitle_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3105041600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters Description as \"AutoLoan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AutoLoan",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_description_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3100040200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enters InitialBalance as \"$500,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$500,000",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_initialBalance_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68725500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enters AccountNumber as \"564329\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "564329",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_accountNumber_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3068219800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters ContactPerson as \"Mark\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mark",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_contactPerson_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3087146400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enters PhoneNumber as \"6543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6543",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_phoneNumber_as(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5866847100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks on SubmitButton",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_submitButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@NewACcountFeature"
+          },
+          {
+            "line": 18,
+            "name": "@Scenarios2"
+          }
+        ]
+      }
+    ],
+    "name": "Creating new account functionality validation",
+    "description": "",
+    "id": "creating-new-account-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/NewAccount.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@NewACcountFeature"
+      }
+    ]
+  }
+]
